@@ -1,0 +1,7 @@
+# Bienvenido a la configuracion principal
+# No tocar nada en la configuracion ya viene con la mejor configuracion para tu
+# servidor por defecto y tambien si cambias algo tienes que reiniciar el servidor
+
+lagCheckInterval: 6000
+entityCleanupInterval: 12000
+entityCleanupEnabled: false

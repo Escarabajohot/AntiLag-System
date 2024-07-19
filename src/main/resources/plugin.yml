@@ -1,0 +1,8 @@
+name: AntiLag-System
+version: '${project.version}'
+main: client.antilagsystem.AntiLag_System
+api-version: '1.19'
+commands:
+  lag:
+    description: Mejora el rendimiento del servidor
+    usage: /lag
