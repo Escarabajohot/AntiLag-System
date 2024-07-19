@@ -32,6 +32,7 @@ public class LagCheckTask extends BukkitRunnable {
     private void notifyOps(double tps) {
         for (Player player : Bukkit.getOnlinePlayers()) {
             if (player.isOp()) {
+                plugin.getLogger().info("Notificando a: " + player.getName());
                 player.sendMessage("§c¡Retraso del servidor detectado! TPS: " + tps);
             }
         }
